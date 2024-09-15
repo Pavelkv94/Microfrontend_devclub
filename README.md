@@ -268,4 +268,9 @@ return (
 
   **Часто ошибки возникают изза неймингов**
 
-  https://www.youtube.com/watch?v=PCor3RS4BZs
+  (1)[https://www.youtube.com/watch?v=PCor3RS4BZs]
+  (2)[https://www.youtube.com/watch?v=1Rz27G-nI5Y]
+
+
+  Чтобы использовать общий редакс необходимо использовать inject асинхронных редьюссеров в стор который находится в хосте.
+  

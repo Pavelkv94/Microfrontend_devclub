@@ -14,10 +14,13 @@ const addPlugins = (config) => {
         ...deps,
       },
       filename: "remoteEntry.js",
+      //todo те микрофронты котоыре мы отдаем если мы микрофронт
       exposes: {
-        "./App": "./src/App"
-      },  //todo те микрофронты котоыре мы отдаем если мы микрофронт
-      remotes: {}, //todo те микрофронты котоыре мы принимаем если мы хост
+        "./App": "./src/App",
+        "./App2": "./src/App2"
+      },
+      //todo те микрофронты котоыре мы принимаем если мы хост
+      remotes: {},
     })
   );
   return config;
